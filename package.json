@@ -1,6 +1,6 @@
 {
-  "name": "@shubham1012/react-native-paper-datetimepicker",
-  "version": "1.0.0",
+  "name": "react-native-paper-datetimepicker",
+  "version": "0.0.1",
   "description": "Date Time Picker For React Native Paper",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -29,16 +29,9 @@
     "date-time-picker",
     "react-native-paper"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/agrawalshubham1012/react-native-paper-datetimepicker.git"
-  },
+  "repository": "https://github.com/agrawalshubham1012/react-native-paper-datetimepicker",
   "author": "Shubham Agrawal <shubham1012agrawal@gmail.com> (https://github.com/agrawalshubham1012)",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/agrawalshubham1012/react-native-paper-datetimepicker/issues"
-  },
-  "homepage": "https://github.com/agrawalshubham1012/react-native-paper-datetimepicker#readme",
   "devDependencies": {
     "@commitlint/config-conventional": "^8.3.4",
     "@react-native-community/bob": "^0.16.2",
