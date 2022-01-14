@@ -1,6 +1,6 @@
 {
   "name": "@shubham1012/react-native-paper-datetimepicker",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Date Time Picker For React Native Paper",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
