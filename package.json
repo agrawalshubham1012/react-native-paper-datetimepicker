@@ -19,7 +19,7 @@
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
     "build": "bob build",
     "prepare": "bob build",
-    "release": "release-it",
+    "release": "dotenv release-it",
     "example": "yarn --cwd example",
     "pods": "cd example && pod-install --quiet",
     "bootstrap": "yarn example && yarn && yarn pods"
@@ -32,6 +32,10 @@
   "repository": "https://github.com/agrawalshubham1012/react-native-paper-datetimepicker",
   "author": "Shubham Agrawal <shubham1012agrawal@gmail.com> (https://github.com/agrawalshubham1012)",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
   "devDependencies": {
     "@commitlint/config-conventional": "^8.3.4",
     "@react-native-community/bob": "^0.16.2",
@@ -46,6 +50,7 @@
     "@types/react-window": "^1.8.2",
     "color": "^3.1.2",
     "commitlint": "^8.3.5",
+    "dotenv-cli": "^4.1.1",
     "eslint": "^7.2.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-prettier": "^3.1.3",

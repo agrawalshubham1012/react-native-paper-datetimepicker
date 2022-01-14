@@ -7,13 +7,13 @@
 Yarn
 
 ```
-yarn add react-native-paper-datetimepicker
+yarn add @shubham1012/react-native-paper-datetimepicker
 ```
 
 npm
 
 ```
-npm install react-native-paper-datetimepicker --save
+npm install @shubham1012/react-native-paper-datetimepicker --save
 ```
 
 ### Web

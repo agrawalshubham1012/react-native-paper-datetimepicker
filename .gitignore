@@ -1,14 +1,14 @@
 # OSX
 #
 .DS_Store
-
+.env
 # XDE
 .expo/
 
 # VSCode
 .vscode/
 jsconfig.json
-
+yarn.lock
 # Xcode
 #
 build/
